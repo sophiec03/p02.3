@@ -36,6 +36,26 @@ Tests:
 import doctest
 def run_tests():
     doctest.testmod(verbose=True)
+        if name1 == "Mewtwo":
+        power1 == power1+100
+
+    if name2 == "Mewtwo":
+        power2 == power2+100
+
+    if name1 == "Mewtwo" or name2 == "Mewtwo":
+        print("Draw")
+
+
+    elif power1 < power2:
+        print(name2)
+
+    elif power2 < power1:
+        print(name1)
+
+    else:
+        print("Draw")
+
+    
 
 
 # Edit this code
